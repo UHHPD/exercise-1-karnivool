@@ -16,5 +16,6 @@ int main() {
         f_zahlen >> zahl2;
     }
 
-    return 0;
+    f_zahlen.close();
+    f_summe.close();
 }
