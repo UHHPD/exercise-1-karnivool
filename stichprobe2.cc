@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     // Aufgabe 2
     // Teil a
-    ofstream f_mittel("mittelwert.txt");
+    ofstream f_mittel("mittelwerte.txt");
     ofstream f_varianz("varianzen.txt");
     ifstream f_daten("datensumme.txt");
 
