@@ -31,4 +31,7 @@ int main() {
         f_mittel << mean << endl;
         f_varianz << variance << endl;
     }
+    f_mittel.close();
+    f_varianz.close();
+    f_daten.close();
 }
